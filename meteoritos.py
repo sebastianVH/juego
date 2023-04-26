@@ -7,7 +7,6 @@ from random import randint
 
 #booleano para comprobar el juego
 jugando=True
-
 #variable de ancho y alto de nuetra pantalla
 width=480
 height=700
@@ -32,7 +31,7 @@ def meteoritos(): #funcion que controla el juego
     #instancioacion de la nave
     nave=jugador.Nave()
     #fondo que usaremos
-    background=pygame.image.load("imagenes/espacio.png") #cargamos la imagen
+    background=pygame.image.load("imagenes/espacio.png") #cargamos la imagen para el fondo
 
     #titulo del juego
     pygame.display.set_caption("Meteoritos")
